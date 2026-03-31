@@ -1,0 +1,30 @@
+# Credentials and Sensitive Data
+*.pem
+*.key
+wazuh-passwords.txt
+*.credentials
+.env
+
+# AWS
+.aws/
+*.tfstate
+*.tfstate.backup
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
